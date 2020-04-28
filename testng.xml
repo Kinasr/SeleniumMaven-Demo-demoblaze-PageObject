@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="utilities.TestNGListener" />
+    </listeners>
+
+    <test verbose="2"
+          name="D:/004_Projects/Selenium/IntelliJ IDEA/Selenium_Maven_demoblaze-SandBox_001">
+        <classes>
+            <class name="org.example.testcases.SignUp"/>
+            <class name="org.example.testcases.Login"/>
+            <class name="org.example.testcases.HomepageExplorer"/>
+            <class name="org.example.testcases.PDP"/>
+            <class name="org.example.testcases.Cart"/>
+        </classes>
+    </test>
+</suite>
